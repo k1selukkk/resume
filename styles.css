@@ -29,7 +29,10 @@ body {
     .info {
         display: block;
         text-align: center;
-        margin-left: 0;
+        
+    }
+    .info-text {
+        margin-left: 0px;
     }
 }
 .card-1 {
