@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Dima, DimaIt, Dimas, ItDimas">
-    <meta name="description" content="Это мой первый сайт">
-    <title>ItDimas</title>
+    <meta name="keywords" content="Kiselev, Kiselev Resume, kiselev resume, kiselev">
+    <meta name="description" content="Это сайт резюме Киселёва Дмитрия">
+    <title>Kiselev Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="I-BFidFd0tg.jpg" width="150">
-    <hr color="red">
+    <div class="container">
+    <div class="info">
+            
+    <img src="I-BFidFd0tg.jpg" alt="Киселёв Дмитрий" class="avatar">
+    
+    <div class="info-text">
+    
     <h1>Киселёв Дмитрий</h1>
     <p>Всем привет, меня зовут <strong>Дима</strong> и моя цель стать хорошим <strong>программистом</strong>.<br> Я увлекаюсь <em>баскетболом, рыбалкой и программированием</em></p>
     
-        <h2>Мои соц сети:</h2><a href="https://vk.com/k1selukkk777" target="_blank">VKontakte</a>
-        <br>
+        <h2>Мои соц сети:</h2><a href="https://vk.com/k1selukkk777" target="_blank" >VKontakte</a> I
         <a href="https://t.me/kiselukkk" target="_blank">Telegram</a>
-    <br>
+    </div>
+    </div>
+    <div class="card-1">
     <h2>Мои хобби</h2>
     
-    <ol>
+    <ol class="list">
         <li>Спорт</li>
         <li>Программирование</li>
         <li>Астрономия</li>
-        <li>ММА</li>
-    </ol>   
+        <li>Путешествие</li>
+    </ol>
+    </div>
+    <div class="card-2">   
     <h2>Опыт работы</h2>
-    <table>
+    <table class="table">
         <thead>
             <tr>
            <th >Название</th>
            <th>Должность</th>
            <th>Год</th> 
-        </tr>
+        </tr> 
         </thead>
         <tbody>
             <tr>
@@ -44,23 +53,30 @@
         </tbody>    
 
     </table>
-    <h2>Связаться со мной</h2>
-    <form>
-        <div>
+    </div>
+    <div class="card-3">
+    
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+        <div class="form-group">
             <label for="name1">Ваше имя:</label>
             <input type="text" id="name1" placeholder="Введите имя">
         </div>
-        <div>
-            <label for="email">Ваше имя:</label>
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-        <div>
+        </div>
+        <div class="form-group">
             <label for="message">Ваше сообщение:</label>
             <br>
             <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
         </div>
-        <button type="submit">Отправить!</button>    
+        <button type="submit" class="btn">Отправить!</button>    
     </form>
+    </div>
+    </div>
 
 
     
